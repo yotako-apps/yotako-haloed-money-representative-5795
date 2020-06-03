@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <com.yotako.customView.YotakoConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_0_guidelines_topf71b9a53_8993_4a51_8368_f62df22b9744"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.053099999999999994" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_0_guidelines_startf71b9a53_8993_4a51_8368_f62df22b9744"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.2916" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_0_guidelines_bottomf71b9a53_8993_4a51_8368_f62df22b9744"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.13122" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_0_guidelines_endf71b9a53_8993_4a51_8368_f62df22b9744"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.71104" />
+            <com.yotako.customView.YotakoTextView
+android:id="@+id/login_text_0"
+android:fontFamily="Sweetfine Vintage"
+
+android:text="SummonHero" 
+android:textColor="#707070"
+android:textSize="47sp"
+app:autoSizeTextType="none"
+android:textStyle="normal"
+app:originalWidth="157"
+app:originalHeight="52"
+android:gravity="left"
+android:layout_width="0dp"
+android:layout_height="62.4dp"
+android:layout_weight="1"
+app:layout_constraintStart_toStartOf="@+id/login_text_0_guidelines_startf71b9a53_8993_4a51_8368_f62df22b9744"
+app:layout_constraintTop_toTopOf="@+id/login_text_0_guidelines_topf71b9a53_8993_4a51_8368_f62df22b9744"
+app:layout_constraintEnd_toEndOf="@+id/login_text_0_guidelines_endf71b9a53_8993_4a51_8368_f62df22b9744"
+app:layout_constraintBottom_toBottomOf="@+id/login_text_0_guidelines_bottomf71b9a53_8993_4a51_8368_f62df22b9744" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_1_guidelines_tope1f00832_93c0_47c5_94cf_5fa335137d78"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.3625" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_1_guidelines_starte1f00832_93c0_47c5_94cf_5fa335137d78"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.37770000000000004" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_1_guidelines_bottome1f00832_93c0_47c5_94cf_5fa335137d78"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.44687" />
+            <android.support.constraint.Guideline
+android:id="@+id/login_text_1_guidelines_ende1f00832_93c0_47c5_94cf_5fa335137d78"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.80825" />
+            <com.yotako.customView.YotakoTextView
+android:id="@+id/login_text_1"
+android:fontFamily="Tahoma"
+
+android:text="Login" 
+android:textColor="#707070"
+android:textSize="28sp"
+app:autoSizeTextType="none"
+android:textStyle="normal"
+app:originalWidth="161"
+app:originalHeight="56"
+android:gravity="left"
+android:layout_width="0dp"
+android:layout_height="67.2dp"
+android:layout_weight="1"
+app:layout_constraintStart_toStartOf="@+id/login_text_1_guidelines_starte1f00832_93c0_47c5_94cf_5fa335137d78"
+app:layout_constraintTop_toTopOf="@+id/login_text_1_guidelines_tope1f00832_93c0_47c5_94cf_5fa335137d78"
+app:layout_constraintEnd_toEndOf="@+id/login_text_1_guidelines_ende1f00832_93c0_47c5_94cf_5fa335137d78"
+app:layout_constraintBottom_toBottomOf="@+id/login_text_1_guidelines_bottome1f00832_93c0_47c5_94cf_5fa335137d78" />
+        </com.yotako.customView.YotakoConstraintLayout>
+    </LinearLayout>
